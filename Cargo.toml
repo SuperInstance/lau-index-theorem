@@ -1,0 +1,14 @@
+[package]
+name = "lau-index-theorem"
+version = "0.1.0"
+edition = "2021"
+description = "Agent Index Theorem (Atiyah-Singer) — tr(id) is the baby case"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+approx = "0.5"
